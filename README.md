@@ -10,4 +10,4 @@ Use the terminal command:
 ```sh
 python main.py
 ```
-
+Press Ctrl + C to stop the execution.
