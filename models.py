@@ -1,3 +1,4 @@
+import pydoc
 import random, bext
 import numpy as np
 from config import COLORS, WIDTH, HEIGHT
@@ -86,3 +87,4 @@ class LogoNest:
     @property
     def total_bounces(self):
         return sum(logo.corner_bounces for logo in self.logos)
+

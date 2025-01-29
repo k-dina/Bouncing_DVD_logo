@@ -10,3 +10,4 @@ Use the terminal command:
 ```sh
 python main.py
 ```
+

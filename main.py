@@ -1,5 +1,5 @@
 import sys, time, bext
-from logo_model import LogoNest
+from models import LogoNest
 from config import NUMBER_OF_LOGOS, PAUSE, LOGO_TEXT
 
 """
