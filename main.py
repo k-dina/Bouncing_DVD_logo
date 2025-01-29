@@ -21,9 +21,17 @@ Requires:
 
 def main():
     """
-    This is the main program loop. It creates a LogoNest instance, loops over the logos
-    in LogoNest, performs a step on them and displays the result. It also displays the current amount of
-    corner bounces at each iteration. Press Ctrl + C to exit.
+    Main program loop for displaying animated logos.
+
+    This script creates an instance of the LogoNest class, which manages multiple logos.
+    The program enters an infinite loop where it:
+    1. Updates the positions and states of the logos (via their 'step' method).
+    2. Clears the screen and re-renders the logos in their new positions.
+    3. Displays the current number of corner bounces that have occurred, reflecting the number of times any logo has bounced off a corner.
+
+    The loop continues indefinitely until interrupted by the user (Ctrl + C).
+
+    Press Ctrl + C to exit the program.
     """
     bext.clear()
     logos = LogoNest(NUMBER_OF_LOGOS)
