@@ -18,6 +18,7 @@ def main():
         print('Corner bounces:', logos.total_bounces, end='')
 
         for logo in logos:
+            logo.step()
             # draw the logos at their new location
             bext.goto(*logo.pos)
             bext.fg(logo.color)
